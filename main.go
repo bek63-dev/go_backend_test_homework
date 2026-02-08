@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
-
-// Тестирую Git
+import "fmt"
 
 // Функция сложения двух чисел
 func Add(a, b int) int {
@@ -12,5 +8,6 @@ func Add(a, b int) int {
 }
 
 func main() {
-	fmt.Println("Я домашка")
+	result := Add(5, 4)
+	fmt.Println(result)
 }
